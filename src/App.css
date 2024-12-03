@@ -1,0 +1,63 @@
+/* General App styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #282c34;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* Active link styling */
+nav a.active {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #61dafb;
+}
+
+/* Page content styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #282c34;
+}
+
+div {
+  margin-top: 20px;
+}
+
+span {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 5px;
+}
