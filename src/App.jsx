@@ -5,8 +5,9 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-import Api from "./Components/Api";
-import TimeCounterPage from "./Components/TimeCounterPage";
+
+import TimeCounterPage from "./pages/TimeCounterPage";
+import Api from "./pages/Api";
 
 function App() {
   return (

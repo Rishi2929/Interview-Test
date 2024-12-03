@@ -1,5 +1,5 @@
-import { useOptimizedTimeCounter } from "./CustomHooks/optimizedTimeCounter";
-import { useTimeCounter } from "./CustomHooks/TimeCounter";
+import { useOptimizedTimeCounter } from "../Components/CustomHooks/optimizedTimeCounter";
+import { useTimeCounter } from "../Components/CustomHooks/TimeCounter";
 
 function TimeCounterPage() {
   const time = useTimeCounter({ hours: 0, minutes: 0, seconds: 55 }); // Start at 0:0:55
